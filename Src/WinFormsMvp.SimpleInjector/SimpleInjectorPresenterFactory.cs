@@ -17,6 +17,7 @@ namespace WinFormsMvp.SimpleInjector
                 throw new ArgumentNullException("container");
 
             _container = container;
+            _container.Options.ResolveUnregisteredConcreteTypes = true;
 
             _container.ResolveUnregisteredType += (s, e) =>
             {

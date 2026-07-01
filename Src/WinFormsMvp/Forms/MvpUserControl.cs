@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.ComponentModel;
+using System.Windows.Forms;
 using WinFormsMvp.Binder;
 
 namespace WinFormsMvp.Forms
@@ -18,6 +19,7 @@ namespace WinFormsMvp.Forms
 
         #region Implementation of IView<TModel>
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public TModel Model
         {
             get { return model; }
