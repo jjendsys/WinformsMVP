@@ -1,11 +1,9 @@
 # WinformsMVP
-[![NuGet](https://img.shields.io/nuget/v/WinFormsMVP.Core.svg?style=flat-square)](https://www.nuget.org/packages/WinFormsMVP.Core/) WinFormsMVP.Core  
-[![NuGet](https://img.shields.io/nuget/v/WinFormsMVP.SimpleInjector.svg?style=flat-square)](https://www.nuget.org/packages/WinFormsMVP.SimpleInjector/) WinFormsMVP.SimpleInjector  
-[![NuGet](https://img.shields.io/nuget/v/WinFormsMVP.StructureMap.svg?style=flat-square)](https://www.nuget.org/packages/WinFormsMVP.StructureMap/) WinFormsMVP.StructureMap       
-[![NuGet](https://img.shields.io/nuget/v/WinFormsMVP.Ninject.svg?style=flat-square)](https://www.nuget.org/packages/WinFormsMVP.Ninject/) WinFormsMVP.Ninject     
-[![NuGet](https://img.shields.io/nuget/v/WinFormsMVP.Unity.svg?style=flat-square)](https://www.nuget.org/packages/WinFormsMVP.Unity/) WinFormsMVP.Unity    
+   
   
-A simple Model View Presenter framework for the Winforms platform.
+A simple Model View Presenter framework for the Winforms platform, based on https://github.com/DavidRogersDev/WinformsMVP
+
+Updated dependencies to latest and refactored to work and target .net10.0-windows OR net462.
   
 Based on the excellent Web Forms MVP, WinForms MVP is a simple Model View Presenter framework for the Winforms platform. To get started, my [CodeProject article](https://www.codeproject.com/Articles/522809/WinForms-MVP-An-MVP-Framework-for-WinForms) on this framework sets out the basics.  
   
