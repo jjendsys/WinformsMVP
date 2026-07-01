@@ -5,6 +5,15 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<PackageId>NDS.WinFormsMvp.Unity</PackageId>
+    <Version>1.0.3</Version>
+    <Authors>jje</Authors>
+    <Company>NDS</Company>
+    <Description>Forked from https://github.com/DavidRogersDev/WinformsMVP to update Unity and other dependencies as well as targeting .net10.0-windows and .net standard 2.0.</Description>
+    <RepositoryUrl>https://github.com/jjendsys/WinformsMVP/tree/master/Src/WinFormsMvp.Unity</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+  <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
