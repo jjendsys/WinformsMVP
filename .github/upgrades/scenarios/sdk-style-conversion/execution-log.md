@@ -9,3 +9,18 @@ Successfully converted WinFormsMvp core library to SDK-style format with multi-t
 - Src/WinFormsMvp/WinFormsMvp.csproj
 - Src/WinFormsMvp/Binder/DefaultCompositeViewTypeFactory.cs
 - Src/WinFormsMvp/Binder/PresenterBinder.cs
+
+### Task 02: Convert DI Integration Projects - ✓ Completed
+Successfully converted all 4 DI container integration projects (Unity, Ninject, SimpleInjector, StructureMap) to SDK-style format with netstandard2.0 target. All packages.config files migrated to PackageReference and subsequently deleted. Project files dramatically reduced in size while preserving assembly signing and all package dependencies. All projects build successfully with expected framework compatibility warnings.
+
+**Files Modified**:
+- Src/WinFormsMvp.Unity/WinFormsMvp.Unity.csproj
+- Src/WinFormsMvp.Ninject/WinFormsMvp.Ninject.csproj
+- Src/WinFormsMvp.SimpleInjector/WinFormsMvp.SimpleInjector.csproj
+- Src/WinFormsMvp.StructureMap/WinFormsMvp.StructureMap.csproj
+
+**Files Deleted**:
+- Src/WinFormsMvp.Unity/packages.config
+- Src/WinFormsMvp.Ninject/packages.config
+- Src/WinFormsMvp.SimpleInjector/packages.config
+- Src/WinFormsMvp.StructureMap/packages.config

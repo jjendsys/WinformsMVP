@@ -3,7 +3,7 @@
 ## Task Hierarchy
 
 - [completed] **01-convert-winformsmvp-core-library**: Convert WinFormsMvp Core Library
-- [pending] **02-convert-di-integration-projects**: Convert DI Integration Projects
+- [completed] **02-convert-di-integration-projects**: Convert DI Integration Projects
 - [pending] **03-convert-test-projects**: Convert Test Projects
 - [pending] **04-final-validation**: Final Validation
 
@@ -35,7 +35,7 @@
 ---
 
 ### 02-convert-di-integration-projects
-**Status**: pending
+**Status**: completed
 **Description**: Convert all 4 DI container integration projects to SDK-style with .NET Standard 2.0 target.
 
 **Scope**:
