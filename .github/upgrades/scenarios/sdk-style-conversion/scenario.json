@@ -3,10 +3,11 @@
   "operationId": "636d057c-3ecd-489d-a625-c29f2be513fd",
   "description": "Converts legacy .NET projects to SDK-style project format. Use when user wants to convert to SDK-style, modernize project files, or migrate from legacy csproj format. Does not change target frameworks.\n",
   "startTime": "2026-07-01T12:59:24.9628017Z",
-  "lastUpdateTime": "2026-07-01T13:03:37.0781984Z",
+  "lastUpdateTime": "2026-07-01T13:11:39.7617291Z",
   "properties": {
     "taskStates": {
-      "01-convert-winformsmvp-core-library": "InProgress"
+      "01-convert-winformsmvp-core-library": "Completed",
+      "02-convert-di-integration-projects": "InProgress"
     }
   },
   "folderPath": ""
