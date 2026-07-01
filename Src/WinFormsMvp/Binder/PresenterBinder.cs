@@ -113,7 +113,7 @@ namespace WinFormsMvp.Binder
                     Factory);
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }

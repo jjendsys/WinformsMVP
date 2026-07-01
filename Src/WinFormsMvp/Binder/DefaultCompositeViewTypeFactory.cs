@@ -135,13 +135,22 @@ public class TestViewComposite
                 new CustomAttributeBuilder(typeof(SecurityTransparentAttribute).GetConstructor(Type.EmptyTypes), new object[0])
             };
 
+#if NET462
             var assembly = appDomain.DefineDynamicAssembly
             (
                 assemblyName,
                 AssemblyBuilderAccess.Run,
                 attributeBuilders
             );
-            
+#else
+            var assembly = AssemblyBuilder.DefineDynamicAssembly
+            (
+                assemblyName,
+                AssemblyBuilderAccess.Run,
+                attributeBuilders
+            );
+#endif
+
             return assembly;
         }
 
