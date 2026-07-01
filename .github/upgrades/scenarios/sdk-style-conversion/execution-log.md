@@ -24,3 +24,14 @@ Successfully converted all 4 DI container integration projects (Unity, Ninject, 
 - Src/WinFormsMvp.Ninject/packages.config
 - Src/WinFormsMvp.SimpleInjector/packages.config
 - Src/WinFormsMvp.StructureMap/packages.config
+
+### Task 03: Convert Test Projects - ✓ Completed
+Successfully converted both test projects (WinFormsMvp.UnitTests and WinFormsMvp.PresenterFactoryUnitTests) to SDK-style format with net6.0-windows target. Migrated from legacy MSTest framework to modern MSTest SDK packages (Microsoft.NET.Test.Sdk, MSTest.TestAdapter, MSTest.TestFramework). All packages.config files migrated to PackageReference and deleted. Both projects build successfully with only acceptable warnings (RhinoMocks compatibility and unused test events).
+
+**Files Modified**:
+- Src/WinFormsMvp.UnitTests/WinFormsMvp.UnitTests.csproj
+- Src/WinFormsMvp.PresenterFactoryUnitTests/WinFormsMvp.PresenterFactoryUnitTests.csproj
+
+**Files Deleted**:
+- Src/WinFormsMvp.UnitTests/packages.config
+- Src/WinFormsMvp.PresenterFactoryUnitTests/packages.config
